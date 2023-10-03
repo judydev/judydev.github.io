@@ -69,6 +69,22 @@ export default function MyWebApps() {
                         Play the Simon Game and see how far you can go.
                     </p>
                 </a>
+
+                <a
+                    href="https://chrome.google.com/webstore/detail/emojist/aikgnikholhpeojnbbbmogcfogiecamf"
+                    className={styles.card}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <h2>
+                        Emojist <span>-&gt;</span>
+                    </h2>
+                    <p>
+                        A Chrome Extension.
+                        <br />
+                        Save your favorite emojis and use in chats.
+                    </p>
+                </a>
             </div>
         </main>
     );

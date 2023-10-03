@@ -7,11 +7,20 @@
   min-height: 100vh;
 }
 
+.header {
+  font-size: 64px;
+  font-family:cursive;
+}
+
+.langButton {
+  size: 40;
+  border-radius: 10;
+}
+
 .description {
   display: inherit;
   justify-content: inherit;
   align-items: inherit;
-  font-size: 0.85rem;
   max-width: var(--max-width);
   width: 100%;
   z-index: 2;
@@ -41,7 +50,7 @@
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(25%, auto));
+  grid-template-columns: repeat(3, minmax(33%, auto));
   max-width: 100%;
   width: var(--max-width);
 }

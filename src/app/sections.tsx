@@ -6,22 +6,24 @@ export default function Sections() {
         <div className={styles.grid}>
             <Link href="/apps" className={styles.card}>
                 <h2>
-                    My Apps <span>-&gt;</span>
+                    Portfolio <span>-&gt;</span>
                 </h2>
-                <p>Take a look at my past projects</p>
+                <p>Check out my past projects</p>
             </Link>
 
-            <a href="/music" className={styles.card}>
+            {/* <a href="/posts" className={styles.card}>
                 <h2>
-                    My Music <span>-&gt;</span>
+                    Posts <span>-&gt;</span>
                 </h2>
-                <p>Checkout my music!</p>
-            </a>
+                <p>Some of my study notes!</p>
+            </a> */}
 
-            <div className={styles.card}>
-                <h2>Contact</h2>
-                <p>judydev[at]outlook.com</p>
-            </div>
+            <a href="/contact" className={styles.card}>
+                <h2>
+                    Contact <span>-&gt;</span>
+                </h2>
+                <p>Contact me.</p>
+            </a>
         </div>
     );
 }

@@ -10,7 +10,17 @@ export default function Home() {
                 Full-stack developer with experience in web and mobile
                 applications.
                 <br />
-                Indie songwriter.
+                <br />
+                Front End
+                <br />
+                Javascript/HTML/CSS, ReactJS/Redux/NextJS, Flutter
+                <br />
+                <br />
+                Back End
+                <br />
+                Java, Python, Dart
+                <br />
+                <br />
             </div>
             <Sections />
         </main>

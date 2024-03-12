@@ -9,16 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "next": "^14.1.1",
     "react": "latest",
     "react-dom": "latest",
-    "next": "latest"
+    "three": "^0.162.0"
   },
   "devDependencies": {
-    "typescript": "latest",
-    "@types/react": "latest",
     "@types/node": "latest",
+    "@types/react": "latest",
     "@types/react-dom": "latest",
+    "@types/three": "^0.162.0",
     "eslint": "latest",
-    "eslint-config-next": "latest"
+    "eslint-config-next": "latest",
+    "typescript": "latest",
+    "vite": "^5.1.4"
   }
 }

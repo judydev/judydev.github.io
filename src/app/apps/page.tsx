@@ -7,7 +7,12 @@ export default function MyWebApps() {
         <main className={styles.main}>
             <Header />
             <div className={styles.grid}>
-                <Link href="/apps/dreamerplaylist" className={styles.card}>
+                <a
+                    href="https://apps.apple.com/us/app/dreamer-playlist/id6472091497"
+                    className={styles.card}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
                     <h2>
                         Dreamer Playlist <span>-&gt;</span>
                     </h2>
@@ -17,53 +22,20 @@ export default function MyWebApps() {
                         Import your audio files and create playlists for your
                         local music.
                     </p>
-                </Link>
-
-                <a
-                    href="https://codepen.io/judysome/full/LZPVKZ"
-                    className={styles.card}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    <h2>
-                        Quote Machine <span>-&gt;</span>
-                    </h2>
-                    <p>
-                        A FreeCodeCamp project.
-                        <br />A quote machine that calls an external API which
-                        returns random quotes.
-                    </p>
                 </a>
 
                 <a
-                    href="https://codepen.io/judysome/full/XVrrJa"
+                    href="https://apps.apple.com/us/app/recycle-this/id6477564043"
                     className={styles.card}
                     target="_blank"
                     rel="noopener noreferrer"
                 >
                     <h2>
-                        Pomodoro Clock <span>-&gt;</span>
+                        Recycle This! <span>-&gt;</span>
                     </h2>
                     <p>
-                        A FreeCodeCamp project.
-                        <br />
-                        Set a Pomodoro Clock to help you get focused.
-                    </p>
-                </a>
-
-                <a
-                    href="https://codepen.io/judysome/full/PEGrYb"
-                    className={styles.card}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    <h2>
-                        Tic Tac Toe <span>-&gt;</span>
-                    </h2>
-                    <p>
-                        A FreeCodeCamp project.
-                        <br />
-                        Play Tic Tac Toe Now :)
+                        A Hackathon project for Global Gamers Challenge.
+                        <br />Spot the recyclables in the given category within 30 seconds to win the game round!
                     </p>
                 </a>
 
@@ -83,7 +55,7 @@ export default function MyWebApps() {
                     </p>
                 </a>
 
-                <a
+                {/* <a
                     href="https://chrome.google.com/webstore/detail/emojist/aikgnikholhpeojnbbbmogcfogiecamf"
                     className={styles.card}
                     target="_blank"
@@ -97,7 +69,7 @@ export default function MyWebApps() {
                         <br />
                         Save your favorite emojis and use in chats.
                     </p>
-                </a>
+                </a> */}
             </div>
         </main>
     );

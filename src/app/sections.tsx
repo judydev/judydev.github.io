@@ -8,7 +8,7 @@ export default function Sections() {
                 <h2>
                     Portfolio <span>-&gt;</span>
                 </h2>
-                <p>Check out my past projects</p>
+                <p>My Works</p>
             </Link>
 
             {/* <a href="/posts" className={styles.card}>
@@ -22,7 +22,7 @@ export default function Sections() {
                 <h2>
                     Contact <span>-&gt;</span>
                 </h2>
-                <p>Contact me.</p>
+                <p></p>
             </a>
         </div>
     );

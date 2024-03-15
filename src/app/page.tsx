@@ -1,7 +1,9 @@
 import styles from "./page.module.css";
 import Sections from "./sections";
 import Header from "./header";
-import { orbitron } from "./layout";
+import { Orbitron } from "next/font/google";
+
+const orbitron = Orbitron({subsets: ['latin']})
 
 export default function Home() {
     return (

@@ -2,7 +2,9 @@ import Link from "next/link";
 import styles from "./page.module.css";
 import Image from "next/image";
 import avatar from '../assets/avatar.png';
-import { orbitron } from "./layout";
+import { Orbitron } from "next/font/google";
+
+const orbitron = Orbitron({subsets: ['latin']})
 
 export default function Header() {
     return (

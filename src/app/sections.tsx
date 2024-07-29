@@ -11,19 +11,28 @@ export default function Sections() {
                 <p>My Works</p>
             </Link>
 
-            {/* <a href="/posts" className={styles.card}>
+            <a href="https://medium.com/@judydev" 
+                target="_blank"
+                className={styles.card}>
                 <h2>
-                    Posts <span>-&gt;</span>
+                    Blog <span>-&gt;</span>
                 </h2>
-                <p>Some of my study notes!</p>
-            </a> */}
+                <p>My Medium Posts</p>
+            </a>
 
-            <a href="/contact" className={styles.card}>
+            <a href="/music" className={styles.card}>
+                <h2>
+                    Music <span>-&gt;</span>
+                </h2>
+                <p>My Music</p>
+            </a>
+
+            {/* <a href="/contact" className={styles.card}>
                 <h2>
                     Contact <span>-&gt;</span>
                 </h2>
                 <p></p>
-            </a>
+            </a> */}
         </div>
     );
 }

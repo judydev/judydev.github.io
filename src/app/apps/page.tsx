@@ -54,7 +54,7 @@ export default function MyWebApps() {
                     </p>
                 </a>
 
-                {/* <a
+                <a
                     href="https://chrome.google.com/webstore/detail/emojist/aikgnikholhpeojnbbbmogcfogiecamf"
                     className={styles.card}
                     target="_blank"
@@ -66,9 +66,9 @@ export default function MyWebApps() {
                     <p>
                         A Chrome Extension.
                         <br />
-                        Save your favorite emojis and use in chats.
+                        Save your favorite emojis for easy access and use in chats.
                     </p>
-                </a> */}
+                </a>
             </div>
         </main>
     );

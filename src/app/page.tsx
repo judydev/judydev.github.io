@@ -11,10 +11,13 @@ export default function Home() {
             <Header />
             <div className={orbitron.className}>
                 <div className={styles.description}>
-                After being a web developer for 5 years, I quit my job and took some time to explore what I wanted to do next. 
-                During this time, I discovered Flutter and used it to build cross-platform (mostly iOS) apps. 
-                I also picked up Python for functional programming and machine learning. 
-                In my free time, I love listening to music and traveling. I also started writing songs last year.
+                    After five years of working as a web developer, I decided to take a step back and explore new possibilities to grow.
+                    During this time, I discovered my passion for building cross-platform apps with <b>Flutter</b>, focusing primarily on iOS. 
+                    I also deepened my knowledge of <b>Google Cloud Platform (GCP)</b> to build scalable solutions and delved into <b>Python</b> for APIs and ML. 
+                    <br/>
+                    As a freelancer now, I am actively working on new app projects, taking on the full lifecycle from
+                    design &gt;&gt; architecture &gt;&gt; development. 
+                    Outside of coding, I love listening to music and travelling. I also started songwriting and producing recently.
                 </div>
             </div>
             {/* <div className={styles.description}>

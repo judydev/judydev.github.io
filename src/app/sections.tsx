@@ -3,7 +3,7 @@ import styles from "./page.module.css";
 
 export default function Sections() {
     return (
-        <div className={styles.grid}>
+        <div className={styles.grid4}>
             <Link href="/apps" className={styles.card}>
                 <h2>
                     Portfolio <span>-&gt;</span>

@@ -19,7 +19,7 @@ export default function AppPage({ appicon, title, description, children }:
             {description}
         </div>
 
-        <div className={styles.grid}>
+        <div className={styles.grid4}>
             {children}
         </div>
 

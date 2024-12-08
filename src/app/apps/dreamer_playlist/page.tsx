@@ -17,15 +17,15 @@ const DreamerPlaylist = () => {
             </div>
 
             <div className={styles.description}>
-                Whether you're a songwriter, music lover, or audiobook listener, Dreamer Playlist lets you manage local audio tracks easily. Your tunes, your way.
+                Whether you are a songwriter, music lover, or audiobook listener, Dreamer Playlist lets you manage local audio tracks easily. Your tunes, your way.
                 <br /><br />
                 Key Features <br />
-                - Import files: Quickly batch-load your local audio files into the app's library<br />
+                - Import files: Quickly batch-load your local audio files into the app library<br />
                 - Playlists: Customize playlists for every mood and occasion<br />
                 - Favorites: Highlight your go-to songs and playlists for quick access
             </div>
 
-            <div className={styles.grid}>
+            <div className={styles.grid4}>
                 <ViewOn 
                     src={appstore} 
                     alt="View on App Store" 

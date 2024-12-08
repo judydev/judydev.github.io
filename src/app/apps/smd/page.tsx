@@ -8,7 +8,11 @@ const SMD = () => {
         <AppPage 
             appicon={appicon}
             title="Sum My Day (Coming Soon)"
-            description="Sum My Day is a productivity app that helps users track their daily activities and goals."
+            description={
+                <>
+                    Sum My Day is a productivity app that helps users track their daily activities and goals.
+                </>
+            }
         >
             <ViewOn 
                 src={youtube} 
@@ -44,7 +48,7 @@ const SMD = () => {
     //             Sum My Day is a productivity app that helps users track their daily activities and goals.
     //         </p>
 
-    //         <div className={styles.grid}>
+    //         <div className={styles.grid4}>
     //             <ViewOn 
     //                 src={appstore} 
     //                 alt="View on App Store" 

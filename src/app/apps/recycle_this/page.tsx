@@ -22,7 +22,7 @@ const RecycleThis = () => {
                 Spot the recyclables in the given category within 30 seconds to win the game round!
             </p>
 
-            <div className={styles.grid}>
+            <div className={styles.grid4}>
                 <ViewOn 
                     src={web} 
                     alt="View on Web" 

@@ -2,75 +2,70 @@ import styles from "../page.module.css";
 import Header from "../header";
 import AppSection from "./app_section";
 
-export default function MyWebApps() {
+export default function MyApps() {
     return (
         <main className={styles.main}>
             <Header />
-            <div className={styles.grid}>
-                <a
-                    href="/apps/dreamer_playlist"
-                    className={styles.card}
-                >
-                    <h2>
-                        Dreamer Playlist <span>-&gt;</span>
-                    </h2>
-                    <p>
-                        A local audio file player on iOS.
-                        <br />
-                        Import your audio files and create playlists for your
-                        local music.
-                    </p>
-                </a>
-
-                <a
-                    href="/apps/recycle_this"
-                    className={styles.card}
-                >
-                    <h2>
-                        Recycle This! <span>-&gt;</span>
-                    </h2>
-                    <p>
-                        A Hackathon project for Global Gamers Challenge.
-                        <br />Spot the recyclables in the given category within 30 seconds to win the game round!
-                    </p>
-                </a>
-
-                <a
-                    href="https://codepen.io/judysome/full/jzxxRz"
-                    className={styles.card}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    <h2>
-                        Simon Game <span>-&gt;</span>
-                    </h2>
-                    <p>
-                        A FreeCodeCamp project.
-                        <br />
-                        Play the Simon Game and see how far you can go.
-                    </p>
-                </a>
-
-                <a
-                    href="https://chrome.google.com/webstore/detail/emojist/aikgnikholhpeojnbbbmogcfogiecamf"
-                    className={styles.card}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    <h2>
-                        Emojist <span>-&gt;</span>
-                    </h2>
-                    <p>
-                        A Chrome Extension.
-                        <br />
-                        Save your favorite emojis for easy access and use in chats.
-                    </p>
-                </a>
-
+            <div className={styles.grid3}>
                 <AppSection
                     href="/apps/smd"
                     title="Sum My Day"
-                    description="A productivity app that helps users track their daily activities and goals."
+                    description={
+                        <>
+                            A productivity app that helps users track their daily activities and goals.
+                            <br />
+                            (Coming Soon)
+                        </>
+                    }
+                />
+
+                <AppSection
+                    href="/apps/dreamer_playlist"
+                    title="Dreamer Playlist"
+                    description={
+                        <>
+                            A local audio file player on iOS.
+                            <br />
+                            Import your audio files and create playlists for your
+                            local music.
+                        </>
+                    }
+                />
+
+                <AppSection
+                    href="/apps/recycle_this"
+                    title="Recycle This!"
+                    description={
+                        <>
+                            A Hackathon project for Global Gamers Challenge.
+                            <br />
+                            Spot the recyclables in the given category within 30 seconds to win the game round!
+                        </>
+                    }
+                />
+
+                <AppSection
+                    href="https://codepen.io/judysome/full/jzxxRz"
+                    title="Simon Game"
+                    description={
+                        <>
+                            A FreeCodeCamp project.
+                            <br />
+                            Play the Simon Game and see how far you can go.
+                        </>
+                    }
+                />
+
+                <AppSection
+                    href="https://chrome.google.com/webstore/detail/emojist/aikgnikholhpeojnbbbmogcfogiecamf"
+                    title="Emojist"
+                    description={
+                        <>
+                            A Chrome Extension.
+                            <br />
+                            Save your favorite emojis for easy access and use in chats.
+                        </>
+                    }
                 />
             </div>
         </main>

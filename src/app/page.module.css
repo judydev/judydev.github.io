@@ -49,9 +49,16 @@
   font-family: var(--font-mono);
 }
 
-.grid {
+.grid4 {
   display: grid;
   grid-template-columns: repeat(4, minmax(25%, auto));
+  max-width: 100%;
+  width: var(--max-width);
+}
+
+.grid3 {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(33%, auto));
   max-width: 100%;
   width: var(--max-width);
 }
@@ -141,7 +148,7 @@
     padding: 4rem;
   }
 
-  .grid {
+  .grid4 {
     grid-template-columns: 1fr;
     margin-bottom: 120px;
     max-width: 320px;
@@ -214,7 +221,7 @@
 
 /* Tablet and Smaller Desktop */
 @media (min-width: 701px) and (max-width: 1120px) {
-  .grid {
+  .grid4 {
     grid-template-columns: repeat(2, 50%);
   }
 }

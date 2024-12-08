@@ -6,15 +6,22 @@ import { Orbitron } from "next/font/google";
 
 const orbitron = Orbitron({subsets: ['latin']})
 
-export default function Header({size=160, children}: {size?: number, children?: React.ReactNode}) {
+export default function SubHeader() {
     return (
-        <Link href="/" style={{ display: 'flex', alignItems: 'center' }}>
+        <Link href="/">
             <Image
                 src={avatar}
-                width={size + 10} height={size}
+                width={210} height={200}
                 alt="Avatar"
+                style={{marginLeft: 50}}
             /> 
-            {children}
+            <div className={styles.header}>
+                <div className={orbitron.className}>Judy Dev</div>
+            </div>
+            <hr />
+            {/* TODO: add language button */}
         </Link>
     );
 }
+
+

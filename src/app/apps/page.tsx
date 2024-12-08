@@ -1,5 +1,6 @@
 import styles from "../page.module.css";
 import Header from "../header";
+import AppSection from "./app_section";
 
 export default function MyWebApps() {
     return (
@@ -65,6 +66,12 @@ export default function MyWebApps() {
                         Save your favorite emojis for easy access and use in chats.
                     </p>
                 </a>
+
+                <AppSection
+                    href="/apps/smd"
+                    title="Sum My Day"
+                    description="A productivity app that helps users track their daily activities and goals."
+                />
             </div>
         </main>
     );

@@ -1,14 +1,14 @@
 import styles from "./page.module.css";
 import Sections from "./sections";
-import Header from "./header";
 import { Orbitron } from "next/font/google";
+import MainHeader from "./header_main";
 
 const orbitron = Orbitron({subsets: ['latin']})
 
 export default function Home() {
     return (
         <main className={styles.main}>
-            <Header />
+            <MainHeader />
             <div className={orbitron.className}>
                 <div className={styles.description}>
                     After five years of working as a web developer, I decided to take a step back and explore new possibilities to grow.
@@ -25,16 +25,13 @@ export default function Home() {
                 applications.
                 <br />
                 <br />
-                Front End
-                <br />
-                Javascript/HTML/CSS, ReactJS/Redux/NextJS, Flutter
+                Front End: Javascript/HTML/CSS, ReactJS/Redux/NextJS, Flutter
                 <br />
                 <br />
-                Back End
-                <br />
-                Java, Python, Dart
+                Back End: Java, Python, Dart
                 <br />
                 <br />
+                Cloud: Google Cloud Platform
             </div> */}
             <Sections />
         </main>

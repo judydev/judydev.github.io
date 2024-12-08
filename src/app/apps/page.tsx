@@ -7,10 +7,8 @@ export default function MyWebApps() {
             <Header />
             <div className={styles.grid}>
                 <a
-                    href="https://apps.apple.com/us/app/dreamer-playlist/id6472091497"
+                    href="/apps/dreamer_playlist"
                     className={styles.card}
-                    target="_blank"
-                    rel="noopener noreferrer"
                 >
                     <h2>
                         Dreamer Playlist <span>-&gt;</span>
@@ -24,10 +22,8 @@ export default function MyWebApps() {
                 </a>
 
                 <a
-                    href="https://apps.apple.com/us/app/recycle-this/id6477564043"
+                    href="/apps/recycle_this"
                     className={styles.card}
-                    target="_blank"
-                    rel="noopener noreferrer"
                 >
                     <h2>
                         Recycle This! <span>-&gt;</span>

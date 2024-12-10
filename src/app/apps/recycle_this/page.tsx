@@ -1,12 +1,8 @@
 import styles from "../../page.module.css";
-import appstore from "../../../assets/appicon/appstore.png";
 import appicon from "../../../assets/appicon/appicon_recycle_this.png";
-import devpost from "../../../assets/appicon/devpost.png";
-import github from "../../../assets/appicon/github.png";
-import web from "../../../assets/appicon/web.png";
 import Header from "@/app/header";
 import AppIconImage from "@/app/components/appicon_image";
-import ViewOn from "@/app/components/view_on";
+import { ViewOnAppStore, ViewOnDevpost, ViewOnGithub, ViewOnWeb } from "@/app/components/view_on";
 
 const RecycleThis = () => {
     return (
@@ -23,35 +19,12 @@ const RecycleThis = () => {
             </p>
 
             <div className={styles.grid4}>
-                <ViewOn 
-                    src={web} 
-                    alt="View on Web" 
-                    href="https://recycle-this-79dc6.web.app/" 
-                    dest="Web" 
-                />
-
-                <ViewOn 
-                    src={appstore} 
-                    alt="View on App Store" 
-                    href="https://apps.apple.com/us/app/recycle-this/id6477564043" 
-                    dest="App Store" 
-                />
-    
-                <ViewOn 
-                    src={github} 
-                    alt="View on GitHub" 
-                    href="https://github.com/judydev/recycle_this" 
-                    dest="GitHub" 
-                />
-                
-                <ViewOn 
-                    src={devpost} 
-                    alt="View on Devpost" 
-                    href="https://devpost.com/software/recycle-this-tyl6kz" 
-                    dest="Devpost" 
-                />
+                <ViewOnWeb href="https://recycle-this-79dc6.web.app/" />
+                <ViewOnAppStore href="https://apps.apple.com/us/app/recycle-this/id6477564043" />
+                <ViewOnGithub href="https://github.com/judydev/recycle_this" />
+                <ViewOnDevpost href="https://devpost.com/software/recycle-this-tyl6kz" />
             </div>
-
+        
             <br/>
         </main>
     );

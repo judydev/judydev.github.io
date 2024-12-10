@@ -1,13 +1,10 @@
 import styles from "../page.module.css";
 import Header from "@/app/header";
 import AppIconImage from "@/app/components/appicon_image";
-import ViewOn from "@/app/components/view_on";
-import appstore from "../../../assets/appicon/appstore.png";
-import playstore from "../../../assets/appicon/playstore.png";
 import { StaticImageData } from "next/image";
 
-export default function AppPage({ appicon, title, description, children }: 
-    { appicon: StaticImageData, title: string, description: React.ReactNode, children: React.ReactNode }) {
+export default function AppPage({ appicon, title, description, children, footer }: 
+    { appicon: StaticImageData, title: string, description: React.ReactNode, children?: React.ReactNode, footer?: React.ReactNode }) {
     return <main className={styles.main}>
         <Header/>
         <div style={{ display: 'flex', alignItems: 'center' }}>
@@ -23,6 +20,6 @@ export default function AppPage({ appicon, title, description, children }:
             {children}
         </div>
 
-        <br/>
+        {footer}
     </main>
 }

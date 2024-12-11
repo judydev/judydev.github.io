@@ -15,7 +15,7 @@ const SMD = () => {
             }
             footer={<SupportFooter googleFormLink="https://forms.gle/Di2fjB88UAJmM8Lz6"/>}
         >
-            <ViewOnYouTube href="https://www.youtube.com/watch?v=n9yjQ2X8vSA&list=PLLnIlSPA1oaIYgeV6zEJ2sg_M9pn8Kmr1" />
+            <ViewOnYouTube href="https://www.youtube.com/watch?v=WU88EaDrKoI&list=PLLnIlSPA1oaIYgeV6zEJ2sg_M9pn8Kmr1" />
             <ViewOnAppStore href="" text="Coming Soon" />
         </AppPage>
     );

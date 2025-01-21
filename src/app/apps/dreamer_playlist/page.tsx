@@ -3,7 +3,7 @@ import styles from "../../page.module.css";
 import appicon from "../../../assets/appicon/appicon_dreamer_playlist.png";
 import Header from "@/app/header";
 import AppIconImage from "@/app/components/appicon_image";
-import { ViewOnAppStore, ViewOnPlayStore } from "@/app/components/view_on";
+import { ViewOnAppStore, ViewOnGoogleForm, ViewOnPlayStore } from "@/app/components/view_on";
 
 const DreamerPlaylist = () => {
     return (
@@ -26,6 +26,7 @@ const DreamerPlaylist = () => {
             <div className={styles.grid4}>
                 <ViewOnAppStore href="https://apps.apple.com/us/app/dreamer-playlist/id6472091497" />
                 <ViewOnPlayStore href="" text="Coming Soon" />
+                <ViewOnGoogleForm href="https://docs.google.com/forms/d/e/1FAIpQLSdHm9xLQj5_xpDJo6m0Djx6PilGhjSLvpspx4uLc6Br7Mok0Q/viewform?usp=header" />
             </div>
 
             <br/>

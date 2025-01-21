@@ -8,6 +8,7 @@ import web from "@/assets/logo/web.png";
 import youtube from "@/assets/logo/youtube.png";
 import devpost from "@/assets/logo/devpost.png";
 import github from "@/assets/logo/github.png";
+import googleform from "@/assets/logo/google_form.png";
 
 function ViewOn({src, href, text}: {src: StaticImageData, href: string, text: string}) {
     if (href === "") {
@@ -37,6 +38,10 @@ export function ViewOnAppStore({href, text = "View on App Store"}: {href: string
 
 export function ViewOnPlayStore({href, text = "View on Play Store"}: {href: string, text?: string}) {
     return <ViewOn src={playstore} text={text} href={href} />
+}
+
+export function ViewOnGoogleForm({href, text="Feedback/Feature Request"}: {href: string, text?: string}) {
+    return <ViewOn src={googleform} text={text} href={href} />
 }
 
 export function ViewOnYouTube({href, text = "View on YouTube"}: {href: string, text?: string}) {
